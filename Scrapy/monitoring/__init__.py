@@ -3,15 +3,17 @@ package untuk bs
 """
 from bs4 import BeautifulSoup
 import requests
-import html5lib
+import requests
 
-soup = BeautifulSoup("<p>Some<b>bad<i>HTML")
-print(soup.prettify())
+
+
 
 def ngambil_data():
-    soup = BeautifulSoup("<p>Some<b>bad<i>HTML")
-    print(soup.prettify())
-    return soup
+    twitter = requests.get('https://twitter.com/i/trends')
+    soup = BeautifulSoup(twitter.content,    "html.parser")
+    trend = soup.find('span', 'css-901oao css-16my406 r-poiln3 r-bcqeeo r-qvutc0')
+    return trend
+
 
 def nampil_data(result):
     pass
