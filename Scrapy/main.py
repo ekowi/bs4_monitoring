@@ -7,5 +7,4 @@ from monitoring import ngambil_data, nampil_data
 if __name__ == '__main__':
     print('ini aplikasi utama')
     result = ngambil_data()
-    # nampil_data(result)
-    print(result)
+    nampil_data(result)
