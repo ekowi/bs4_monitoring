@@ -7,12 +7,14 @@ from bs4 import BeautifulSoup
 import json
 
 def get_data():
-    keyword = 'xiaomi'
-    url = requests.get(f'https://www.jd.id/search?keywords={keyword}')
+    url = requests.get('https://harga-emas.org/')
     data = url.text
     soup = BeautifulSoup(data,  'html.parser')
-    json = soup.findAll('script')
-    print(json)
+    table = soup.findAll('table', {'class': 'in_table', 'style': 'padding-top: 15px;'})
+    for i in table:
+        print(i.text)
+
+
 
 
 def show_data(result):
