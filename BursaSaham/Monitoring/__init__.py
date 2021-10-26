@@ -8,12 +8,15 @@ def ambildata():
                       'Chrome/95.0.4638.54 Safari/537.36'
     }
     link = requests.get(url, headers=headers)
-    soup = BeautifulSoup(link.text,     'html.parser')
-    bca = soup.find('tr', {'data-decimals': '2', 'data-symbol': 'BBCA:IJ'}).text
-    # bca = bca.strip().split('\n')
+    if link.status_code == 200:
+        soup = BeautifulSoup(link.text,     'html.parser')
+        bca = soup.find('tr', {'data-decimals': '2', 'data-symbol': 'BBCA:IJ'}).findChildren('td')[2].text
+        bcaTahun = soup.find('tr', {'data-decimals': '2', 'data-symbol': 'BBCA:IJ'}).findChildren('td')[6].text
 
-    hasil = dict()
-    hasil['bca'] = bca
+
+        hasil = dict()
+        hasil['bca'] = bca
+        hasil['tahun'] = bcaTahun
     return hasil
 
 
@@ -21,6 +24,7 @@ def ambildata():
 
 def tampildata(result):
     print(f"data saham bca adalah {result['bca']}")
+    print(f"Perbandingan Tahun lalu {result['tahun']}")
 
 
 
