@@ -3,6 +3,7 @@ import requests
 import csv
 from datetime import datetime
 def ambildata():
+    global hasil
     url = 'https://id.tradingeconomics.com/indonesia/stock-market'
     headers = {
         'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) '
@@ -45,9 +46,12 @@ def tampildata(result):
     print(f"{result['bmritahun']}")
     with open('index.csv', 'a') as csv_file:
         writer = csv.writer(csv_file)
-        writer.writerow([f"{result['bca']}", f"{result['bcatahun']}", datetime.now()])
-        writer.writerow([f"{result['bri']}", f"{result['britahun']}", datetime.now()])
-        writer.writerow([f"{result['bmri']}", f"{result['bmritahun']}", datetime.now()])
+        # writer.writerow([f"{'BCA' : ^20}", f"{'Tahun Lalu' : ^20}",
+        #                  f"{'BRI' : ^20}", f"{'Tahun Lalu' : ^20}",
+        #                  f"{'MANDIRI' : ^20}", f"{'Tahun Lalu' : ^20}", f"{'Waktu' : ^20}"])
+        writer.writerow([f"{result['bca']}", f"{result['bcatahun']}",
+                         f"{result['bri']}", f"{result['britahun']}",
+                         f"{result['bmri']}", f"{result['bmritahun']}", datetime.now()])
     return result
 
 
