@@ -11,23 +11,38 @@ check_out = 'checkOut=26-02-2022&'  #dd-mm-yyyy
 
 # Get data from link
 def get_data():
-    url = f"https://www.travelio.com/search?searchType=monthly&destinationCategory=City&destinationUrlName=&" \
-          f"destinationPlaceId=&destinationCountryId=ID&destinationId=546c9db1b094a31e06e08a6b&nights=31&flexible=1&" \
-          f"destination={city}&{check_in}{check_out}months=1&cbFlexible=on&unitType=3%2C2%2C1%2Cstudio&" \
-          f"propTypeId=guesthouse%2Chostel%2Chotel%2Croom%2Cvilla%2Chouse%2Capartment&" \
-          f"sellType=Unfurnished%2CFull%2BFurnished&bottomPrice=833333.6000000001&upperPrice=15523333.6"
+    url = 'https://www.travelio.com/newGetHotelByCriteria'
     headers = {
-        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) "
-                      "Chrome/97.0.4692.99 Safari/537.36"
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36"
     }
-    
+    payload = {
+        'page': 1,
+        'stayDurationType': 'monthly',
+        'destinationId': '546c9db1b094a31e06e08a6b',
+        'destinationCategory': 'city',
+        'destination': 'Depok',
+        'numberOfRooms': '1',
+        'numberOfNights': '30',
+        'formattedCheckinDate': '20220127',
+        'breakfast': '0',
+        'provider': 'all',
+        'sortBy': 'default',
+        'sortOrder': '1',
+        'bottomPrice': '833333.6000000001',
+        'upperPrice': '15523333.6',
+        'instant': '0',
+        'filterPropertyType' : None,
+        'unitType' : None,
+        'sellType' : None,
+        'numberOfGuests': '1'
+    }
+
     try:
-        source = requests.get(url,  headers= headers)
+        source = requests.post(url,  headers= headers, data=payload)
     except Exception:
         return None
     if source.status_code == 200:
         print(source.status_code)
         soup = BeautifulSoup(source.text,   'html.parser')
-        #data = soup.find('div', id = 'hotel-list-box-v2')
-        print(soup.prettify())
-
+        #data = soup.find('div',{'data-automation' : 'jobListing'})
+        print(soup.get_text)
