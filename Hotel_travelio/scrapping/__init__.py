@@ -22,8 +22,8 @@ def get_data():
         'destinationCategory': 'city',
         'destination': 'Depok',
         'numberOfRooms': '1',
-        'numberOfNights': '30',
-        'formattedCheckinDate': '20220127',
+        'numberOfNights': '365',
+        'formattedCheckinDate': '20220201',
         'breakfast': '0',
         'provider': 'all',
         'sortBy': 'default',
@@ -44,5 +44,7 @@ def get_data():
     if source.status_code == 200:
         print(source.status_code)
         soup = BeautifulSoup(source.text,   'html.parser')
-        #data = soup.find('div',{'data-automation' : 'jobListing'})
-        print(soup.get_text)
+        #data = soup.findAll('urlName')
+        #for i in data:
+        #    print(data)
+        print(soup)
