@@ -2,6 +2,7 @@
 # Hope this project will done in this february
 import requests
 from bs4 import BeautifulSoup
+import json
 
 
 # add variable for url search and headers
@@ -11,9 +12,11 @@ check_out = 'checkOut=26-02-2022&'  #dd-mm-yyyy
 
 # Get data from link
 def get_data():
+    global hasil
     url = 'https://www.travelio.com/newGetHotelByCriteria'
     headers = {
-        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36"
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) "
+                      "Chrome/97.0.4692.99 Safari/537.36"
     }
     payload = {
         'page': 1,
@@ -44,7 +47,16 @@ def get_data():
     if source.status_code == 200:
         print(source.status_code)
         soup = BeautifulSoup(source.text,   'html.parser')
-        #data = soup.findAll('urlName')
-        #for i in data:
-        #    print(data)
-        print(soup)
+        data_json = json.loads(soup.text)
+        hasil = dict()
+        for i in data_json['data']:
+            nama_hotel = i['urlName']
+            hasil['Nama'] = nama_hotel
+            print(hasil['Nama'])
+
+
+
+
+def tampil_data(data):
+    print('ini batas')
+    print(hasil)
