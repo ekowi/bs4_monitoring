@@ -3,6 +3,7 @@
 import requests
 from bs4 import BeautifulSoup
 import json
+import csv
 
 
 # add variable for url search and headers
@@ -12,7 +13,10 @@ check_out = 'checkOut=26-02-2022&'  #dd-mm-yyyy
 
 # Get data from link
 def get_data():
-    global hasil
+    global hotel
+    global price_month
+    global latitude
+    global langtitude
     url = 'https://www.travelio.com/newGetHotelByCriteria'
     headers = {
         "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) "
@@ -26,7 +30,7 @@ def get_data():
         'destination': 'Depok',
         'numberOfRooms': '1',
         'numberOfNights': '365',
-        'formattedCheckinDate': '20220201',
+        'formattedCheckinDate': '20220211',
         'breakfast': '0',
         'provider': 'all',
         'sortBy': 'default',
@@ -48,15 +52,23 @@ def get_data():
         print(source.status_code)
         soup = BeautifulSoup(source.text,   'html.parser')
         data_json = json.loads(soup.text)
-        hasil = dict()
-        for i in data_json['data']:
-            nama_hotel = i['urlName']
-            hasil['Nama'] = nama_hotel
-            print(hasil['Nama'])
 
+        for nama in data_json['data']:
+            hotel = nama['building']['name']
+            price_month = nama['displayMonthlyPrice']
 
+            i = 0
+            for local in nama['loc']['coordinates']:
+                i += 1
+                if i % 2 == 0:
+                    latitude = local
+                else:
+                    langtitude = local
 
 
 def tampil_data(data):
     print('ini batas')
-    print(hasil)
+    with open('index.csv', 'a') as csv_file:
+        writer = csv.writer(csv_file)
+        writer.writerow([hotel, price_month, latitude, langtitude])
+    return data
