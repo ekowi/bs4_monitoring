@@ -13,10 +13,6 @@ check_out = 'checkOut=26-02-2022&'  #dd-mm-yyyy
 
 # Get data from link
 def get_data():
-    global hotel
-    global price_month
-    global latitude
-    global langtitude
     url = 'https://www.travelio.com/newGetHotelByCriteria'
     headers = {
         "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) "
@@ -30,7 +26,7 @@ def get_data():
         'destination': 'Depok',
         'numberOfRooms': '1',
         'numberOfNights': '365',
-        'formattedCheckinDate': '20220211',
+        'formattedCheckinDate': '20220213',
         'breakfast': '0',
         'provider': 'all',
         'sortBy': 'default',
@@ -52,8 +48,9 @@ def get_data():
         print(source.status_code)
         soup = BeautifulSoup(source.text,   'html.parser')
         data_json = json.loads(soup.text)
+        data = data_json['data']
 
-        for nama in data_json['data']:
+        for nama in data:
             hotel = nama['building']['name']
             price_month = nama['displayMonthlyPrice']
 
@@ -66,9 +63,20 @@ def get_data():
                     langtitude = local
 
 
+
+                    data_dict = {
+                        'nama' : hotel,
+                        'harga' : price_month
+                       }
+                    print(data_dict)
+
+
+
+
 def tampil_data(data):
-    print('ini batas')
-    with open('index.csv', 'a') as csv_file:
-        writer = csv.writer(csv_file)
-        writer.writerow([hotel, price_month, latitude, langtitude])
-    return data
+#    print('ini batas')
+ #   with open('index.csv', 'a') as csv_file:
+ #       writer = csv.writer(csv_file)
+ #       writer.writerow([hotel, price_month, latitude, langtitude])
+ #   return data
+    return None
