@@ -10,7 +10,7 @@ import csv
 city = 'Depok'  #ex 'cibinong'
 check_in = 'checkIn=26-01-2022&'   #dd-mm-yyyy
 check_out = 'checkOut=26-02-2022&'  #dd-mm-yyyy
-
+list = []
 # Get data from link
 def get_data():
     url = 'https://www.travelio.com/newGetHotelByCriteria'
@@ -26,7 +26,7 @@ def get_data():
         'destination': 'Depok',
         'numberOfRooms': '1',
         'numberOfNights': '365',
-        'formattedCheckinDate': '20220213',
+        'formattedCheckinDate': '20220214',
         'breakfast': '0',
         'provider': 'all',
         'sortBy': 'default',
@@ -39,7 +39,6 @@ def get_data():
         'sellType' : None,
         'numberOfGuests': '1'
     }
-
     try:
         source = requests.post(url,  headers= headers, data=payload)
     except Exception:
@@ -49,34 +48,40 @@ def get_data():
         soup = BeautifulSoup(source.text,   'html.parser')
         data_json = json.loads(soup.text)
         data = data_json['data']
-
+        global latitude, langtitude
         for nama in data:
             hotel = nama['building']['name']
             price_month = nama['displayMonthlyPrice']
-
             i = 0
-            for local in nama['loc']['coordinates']:
+            for dat in nama['loc']['coordinates']:
                 i += 1
                 if i % 2 == 0:
-                    latitude = local
+                    latitude = dat
                 else:
-                    langtitude = local
+                    langtitude = dat
 
 
 
-                    data_dict = {
+            data_lokasi = {
+                'latitude' : latitude,
+                'langtitude' : langtitude
+                    }
+            data_dict = {
                         'nama' : hotel,
-                        'harga' : price_month
+                        'harga' : price_month,
+                        'lokasi' : data_lokasi,
                        }
-                    print(data_dict)
+            list.append(data_dict)
+
+
+
+
+
 
 
 
 
 def tampil_data(data):
-#    print('ini batas')
- #   with open('index.csv', 'a') as csv_file:
- #       writer = csv.writer(csv_file)
- #       writer.writerow([hotel, price_month, latitude, langtitude])
- #   return data
-    return None
+    print('ini batas')
+    print(list)
+    return data

@@ -4,4 +4,5 @@ from scrapping import get_data, tampil_data
 
 if __name__ == '__main__':
     print('This main file')
-    get_data()
+    data = get_data()
+    tampil_data(data)
