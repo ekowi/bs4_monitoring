@@ -3,7 +3,7 @@
 import requests
 from bs4 import BeautifulSoup
 import json
-import csv
+import os
 
 
 # add variable for url search and headers
@@ -26,7 +26,7 @@ def get_data():
         'destination': 'Depok',
         'numberOfRooms': '1',
         'numberOfNights': '365',
-        'formattedCheckinDate': '20220214',
+        'formattedCheckinDate': '20220215',
         'breakfast': '0',
         'provider': 'all',
         'sortBy': 'default',
@@ -39,19 +39,28 @@ def get_data():
         'sellType' : None,
         'numberOfGuests': '1'
     }
+
     try:
         source = requests.post(url,  headers= headers, data=payload)
     except Exception:
         return None
+
     if source.status_code == 200:
-        print(source.status_code)
         soup = BeautifulSoup(source.text,   'html.parser')
         data_json = json.loads(soup.text)
         data = data_json['data']
-        global latitude, langtitude
+
+        global latitude, langtitude, bed
         for nama in data:
             hotel = nama['building']['name']
             price_month = nama['displayMonthlyPrice']
+            rating = nama['rating']
+            room_max = nama['roomCapacity']
+            book_date = nama['availStartDate']
+
+            for i in nama['rooms']:
+                bed = i['bedConfig']
+
             i = 0
             for dat in nama['loc']['coordinates']:
                 i += 1
@@ -60,17 +69,21 @@ def get_data():
                 else:
                     langtitude = dat
 
-
-
             data_lokasi = {
                 'latitude' : latitude,
                 'langtitude' : langtitude
                     }
+
             data_dict = {
                         'nama' : hotel,
+                        'max_tamu' : room_max,
+                        'kasur' : bed,
                         'harga' : price_month,
+                        'rating' : rating,
                         'lokasi' : data_lokasi,
+                        'tersedia' : book_date
                        }
+
             list.append(data_dict)
 
 
@@ -82,6 +95,11 @@ def get_data():
 
 
 def tampil_data(data):
-    print('ini batas')
-    print(list)
+    try:
+        os.mkdir('result')
+    except FileExistsError:
+        pass
+    with open('result/data_hotel.json', 'w+') as path:
+        json.dump(list, path)
+        print(f"data terkumpul sebanyak {len(list)} dan file json sudah jadi")
     return data
