@@ -4,12 +4,11 @@ import requests
 from bs4 import BeautifulSoup
 import json
 import os
+import pandas as pd
 
 
 # add variable for url search and headers
-city = 'Depok'  #ex 'cibinong'
-check_in = 'checkIn=26-01-2022&'   #dd-mm-yyyy
-check_out = 'checkOut=26-02-2022&'  #dd-mm-yyyy
+
 list = []
 # Get data from link
 def get_data():
@@ -26,7 +25,7 @@ def get_data():
         'destination': 'Depok',
         'numberOfRooms': '1',
         'numberOfNights': '365',
-        'formattedCheckinDate': '20220215',
+        'formattedCheckinDate': '20220217',
         'breakfast': '0',
         'provider': 'all',
         'sortBy': 'default',
@@ -89,7 +88,10 @@ def get_data():
 
 
 
-
+def panda(data):
+    df = pd.DataFrame(list)
+    df.to_csv("hasil.csv", index=False)
+    df.to_excel("hasil.xlsx", index=False)
 
 
 
