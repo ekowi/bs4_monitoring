@@ -13,21 +13,21 @@ def run():
 
 list = []
 # Get data from link
-def get_data():
+def get_data(page, date):
     url = 'https://www.travelio.com/newGetHotelByCriteria'
     headers = {
         "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) "
                       "Chrome/97.0.4692.99 Safari/537.36"
     }
     payload = {
-        'page': '1',
+        'page': page,
         'stayDurationType': 'monthly',
         'destinationId': '580740cad0746fa20a5a3f74',
         'destinationCategory': 'area',
         'destination': 'Kuningan',
         'numberOfRooms' : '1',
         'numberOfNights': '365',
-        'formattedCheckinDate': '20220219',
+        'formattedCheckinDate': date,
         'breakfast': '0',
         'provider': 'all',
         'sortBy': 'default',
@@ -90,8 +90,8 @@ def get_data():
 
 
 #run this funtion to make csv or excel output
-def panda(data):
-    df = pd.DataFrame(list)
+def panda(Dataframe):
+    df = pd.DataFrame(Dataframe)
     df.to_csv(f"result/hasil.csv", index=False)
     df.to_excel(f"result/hasil.xlsx", index=False)
 
@@ -103,7 +103,22 @@ def tampil_data(data):
         os.mkdir('result')
     except FileExistsError:
         pass
-    with open('result/data_hotel.json', 'w+') as path:
-        json.dump(list, path)
-        print(f"data terkumpul sebanyak {len(list)} dan file json sudah jadi")
+    if len(list) > 1 :
+        with open(f"result/data_hotel.json", 'w+') as path:
+            json.dump(list, path)
+            print(f"data terkumpul sebanyak {len(list)} dan file json sudah jadi")
+    else:
+        print('data sudah habis coba halaman depan')
+
     return data
+
+
+
+def run():
+    page = input('Masukan Halaman yang diinginkan : ')
+    date = input('Masukan tanggal booking hotel (YYYYMMDD) :')
+
+    data = get_data(page,date)
+    panda(list)
+    tampil_data(data)
+
