@@ -1,0 +1,57 @@
+nama,max_tamu,kasur,harga,rating,lokasi,tersedia
+Apartemen Casablanca,2,"[{'type': 'King (180x200)', 'qty': '1'}]",10000000,0.0,"{'latitude': -6.223056, 'langtitude': 106.845278}",20220224
+Apartemen Casablanca,4,"[{'type': 'King (180x200)', 'qty': '1'}, {'type': 'Queen (160x200)', 'qty': '1'}]",15000000,0.0,"{'latitude': -6.223056, 'langtitude': 106.845278}",20220219
+Apartemen Palm Court,2,"[{'type': 'King (180x200)', 'qty': '1'}]",11219000,0.0,"{'latitude': -6.238362, 'langtitude': 106.825882}",20220219
+Apartemen Denpasar Residence Kuningan,4,"[{'type': 'Queen (160x200)', 'qty': '2'}]",11572596,0.0,"{'latitude': -6.224686, 'langtitude': 106.829601}",20220219
+Apartemen Palm Court,2,"[{'type': 'Queen (160x200)', 'qty': '1'}]",11219000,0.0,"{'latitude': -6.238362, 'langtitude': 106.825882}",20220219
+Apartemen The Mayflower,3,"[{'type': 'Queen (160x200)', 'qty': '1'}, {'type': 'Super Single (120x200)', 'qty': '1'}]",22249999,0.0,"{'latitude': -6.208374, 'langtitude': 106.822596}",20220219
+Apartemen Palm Court,4,"[{'type': 'King (180x200)', 'qty': '1'}, {'type': 'Single (100x200)', 'qty': '2'}]",21050000,5.0,"{'latitude': -6.238362, 'langtitude': 106.825882}",20220219
+Apartemen Palm Court,2,"[{'type': 'King (180x200)', 'qty': '1'}]",11219000,5.0,"{'latitude': -6.238362, 'langtitude': 106.825882}",20220219
+Apartemen Ambassador Kuningan,4,"[{'type': 'Queen (160x200)', 'qty': '1'}, {'type': 'Single (100x200)', 'qty': '2'}]",16719998,5.0,"{'latitude': -6.223948366371162, 'langtitude': 106.82698883841132}",20220219
+Apartemen Ambassador 2,3,"[{'type': 'Queen (160x200)', 'qty': '1'}, {'type': 'Super Single (120x200)', 'qty': '1'}]",7000000,4.9,"{'latitude': -6.22316, 'langtitude': 106.826083}",20220219
+Apartemen Ambassador 2,3,"[{'type': 'Queen (160x200)', 'qty': '1'}, {'type': 'Single (100x200)', 'qty': '1'}]",9499999,0.0,"{'latitude': -6.22316, 'langtitude': 106.826083}",20220228
+Apartemen Ambassador 2,3,"[{'type': 'Queen (160x200)', 'qty': '1'}, {'type': 'Single (100x200)', 'qty': '1'}]",11000000,5.0,"{'latitude': -6.22316, 'langtitude': 106.826083}",20220219
+Apartemen Ambassador 2,4,"[{'type': 'King (180x200)', 'qty': '1'}, {'type': 'Single (100x200)', 'qty': '2'}]",15920520,5.0,"{'latitude': -6.22316, 'langtitude': 106.826083}",20220219
+Apartemen Ambassade Kuningan,2,"[{'type': 'Queen (160x200)', 'qty': '1'}]",6282545,5.0,"{'latitude': -6.222428, 'langtitude': 106.831122}",20220228
+Apartemen Ambassade Kuningan,2,"[{'type': 'Queen (160x200)', 'qty': '1'}]",8844480,4.5,"{'latitude': -6.222428, 'langtitude': 106.831122}",20220227
+Apartemen Ambassade Kuningan,4,"[{'type': 'King (180x200)', 'qty': '1'}, {'type': 'Super Single (120x200)', 'qty': '2'}]",15411348,5.0,"{'latitude': -6.222428, 'langtitude': 106.831122}",20220228
+Apartemen Bellagio Residence,3,"[{'type': 'King (180x200)', 'qty': '1'}, {'type': 'Single (100x200)', 'qty': '1'}]",10199999,0.0,"{'latitude': -6.227491, 'langtitude': 106.824589}",20220219
+Apartemen Bellagio Residence,2,"[{'type': 'King (180x200)', 'qty': '1'}]",10224999,0.0,"{'latitude': -6.227246, 'langtitude': 106.82437}",20220219
+Apartemen Bellagio Residence,6,"[{'type': 'Queen (160x200)', 'qty': '3'}]",16562499,4.8,"{'latitude': -6.227246, 'langtitude': 106.82437}",20220228
+Apartemen Bellagio Residence,2,"[{'type': 'King (180x200)', 'qty': '1'}]",10224999,0.0,"{'latitude': -6.227840606990748, 'langtitude': 106.82447254657745}",20220219
+Apartemen Bellagio Residence,2,"[{'type': 'King (180x200)', 'qty': '1'}]",11247498,5.0,"{'latitude': -6.227840606990748, 'langtitude': 106.82447254657745}",20220219
+Apartemen Bellagio Residence,2,"[{'type': 'Queen (160x200)', 'qty': '1'}, {'type': 'Single (100x200)', 'qty': '1'}]",12539998,0.0,"{'latitude': -6.227841, 'langtitude': 106.824472}",20220219
+Apartemen The Empyreal Epicentrum Kuningan,3,"[{'type': 'Single (100x200)', 'qty': '1'}, {'type': 'King (180x200)', 'qty': '1'}]",13609430,5.0,"{'latitude': -6.2185, 'langtitude': 106.833959}",20220228
+Apartemen The Empyreal Epicentrum Kuningan,3,"[{'type': 'King (180x200)', 'qty': '1'}, {'type': 'Single (100x200)', 'qty': '1'}]",14151449,5.0,"{'latitude': -6.2185, 'langtitude': 106.833959}",20220219
+Apartemen The Empyreal Epicentrum Kuningan,4,"[{'type': 'King (180x200)', 'qty': '1'}, {'type': 'Queen (160x200)', 'qty': '1'}]",14351449,4.9,"{'latitude': -6.2185, 'langtitude': 106.833959}",20220228
+Apartemen The Empyreal Epicentrum Kuningan,4,"[{'type': 'King (180x200)', 'qty': '1'}, {'type': 'Super Single (120x200)', 'qty': '2'}]",12500000,5.0,"{'latitude': -6.218249355801673, 'langtitude': 106.83425404299165}",20220228
+Apartemen Ciputra World 2,5,"[{'type': 'Queen (160x200)', 'qty': '1'}, {'type': 'Single (100x200)', 'qty': '1'}, {'type': 'Double (140x200)', 'qty': '1'}]",23627998,5.0,"{'latitude': -6.22258, 'langtitude': 106.819962}",20220219
+Apartemen Sudirman Tower Condominium,3,"[{'type': 'Queen (160x200)', 'qty': '1'}, {'type': 'Single (100x200)', 'qty': '2'}]",11076322,4.8,"{'latitude': -6.233915658353068, 'langtitude': 106.83104783297154}",20220219
+Apartemen Sudirman Tower Condominium,4,"[{'type': 'Queen (160x200)', 'qty': '1'}, {'type': 'Queen (160x200)', 'qty': '1'}, {'type': 'Super Single (120x200)', 'qty': '1'}]",14757778,4.9,"{'latitude': -6.233915658353068, 'langtitude': 106.83104783297154}",20220219
+Apartemen Tamansari Semanggi,2,"[{'type': 'Queen (160x200)', 'qty': '1'}]",6092342,4.8,"{'latitude': -6.226513, 'langtitude': 106.81933}",20220228
+Apartemen Tamansari Semanggi,4,"[{'type': 'Queen (160x200)', 'qty': '2'}]",10664030,4.8,"{'latitude': -6.226513, 'langtitude': 106.81933}",20220219
+Apartemen Tamansari Semanggi,2,"[{'type': 'King (180x200)', 'qty': '1'}]",5290500,5.0,"{'latitude': -6.22541633773109, 'langtitude': 106.81921397916793}",20220219
+Apartemen Tamansari Semanggi,2,"[{'type': 'King (180x200)', 'qty': '1'}]",7247402,4.8,"{'latitude': -6.225421670514887, 'langtitude': 106.8192086147499}",20220219
+Apartemen Ciputra World 2,2,"[{'type': 'Queen (160x200)', 'qty': '1'}]",8297829,5.0,"{'latitude': -6.222038, 'langtitude': 106.819686}",20220219
+Apartemen Tamansari Semanggi,4,"[{'type': 'Queen (160x200)', 'qty': '1'}, {'type': 'Double (140x200)', 'qty': '1'}, {'type': 'Single (Underbed)', 'qty': '1'}]",11058902,4.9,"{'latitude': -6.226637, 'langtitude': 106.819315}",20220219
+Apartemen Setiabudi Skygarden,2,"[{'type': 'Queen (160x200)', 'qty': '1'}]",14999999,5.0,"{'latitude': -6.215627, 'langtitude': 106.82896}",20220219
+Apartemen Tamansari Semanggi,4,"[{'type': 'Queen (160x200)', 'qty': '2'}]",9999999,4.8,"{'latitude': -6.227052, 'langtitude': 106.819377}",20220226
+Apartemen Setiabudi Skygarden,3,"[{'type': 'Queen (160x200)', 'qty': '1'}, {'type': 'Super Single (120x200)', 'qty': '1'}]",14849998,5.0,"{'latitude': -6.215625, 'langtitude': 106.82896}",20220219
+Apartemen Tamansari Semanggi,2,"[{'type': 'Queen (160x200)', 'qty': '1'}]",7000000,4.9,"{'latitude': -6.22639, 'langtitude': 106.819211}",20220225
+Apartemen Tamansari Semanggi,2,"[{'type': 'Queen (160x200)', 'qty': '1'}]",5908907,4.8,"{'latitude': -6.226474, 'langtitude': 106.819113}",20220219
+Apartemen Ciputra World 2,3,"[{'type': 'Queen (160x200)', 'qty': '1'}, {'type': 'Super Single (120x200)', 'qty': '1'}]",16000000,4.7,"{'latitude': -6.222643, 'langtitude': 106.819273}",20220219
+Apartemen Tamansari Semanggi,2,"[{'type': 'King (180x200)', 'qty': '1'}]",7254007,5.0,"{'latitude': -6.226070127947559, 'langtitude': 106.81900352239609}",20220227
+Apartemen Tamansari Semanggi,2,"[{'type': 'Queen (160x200)', 'qty': '1'}]",8449999,4.7,"{'latitude': -6.226306, 'langtitude': 106.818997}",20220226
+Apartemen Ciputra World 2,2,"[{'type': 'King (180x200)', 'qty': '1'}]",8155062,0.0,"{'latitude': -6.222026, 'langtitude': 106.819399}",20220219
+Apartemen Ciputra World 2,2,"[{'type': 'Queen (160x200)', 'qty': '1'}]",8124999,5.0,"{'latitude': -6.222025200874266, 'langtitude': 106.81939780712128}",20220219
+Apartemen Ciputra World 2,2,"[{'type': 'Queen (160x200)', 'qty': '1'}]",9217096,5.0,"{'latitude': -6.222025200874266, 'langtitude': 106.81939780712128}",20220219
+Apartemen Ciputra World 2,2,"[{'type': 'Queen (160x200)', 'qty': '1'}]",9217096,5.0,"{'latitude': -6.222025200874266, 'langtitude': 106.81939780712128}",20220225
+Apartemen Ciputra World 2,2,"[{'type': 'Queen (160x200)', 'qty': '1'}]",10749999,5.0,"{'latitude': -6.222025200874266, 'langtitude': 106.81939780712128}",20220227
+Apartemen Ciputra World 2,2,"[{'type': 'Queen (160x200)', 'qty': '1'}]",11829769,4.6,"{'latitude': -6.222025200874266, 'langtitude': 106.81939780712128}",20220219
+Apartemen Puri Casablanca,2,"[{'type': 'King (180x200)', 'qty': '1'}]",9859999,5.0,"{'latitude': -6.223001, 'langtitude': 106.838258}",20220219
+Apartemen Setiabudi,4,"[{'type': 'King (180x200)', 'qty': '1'}, {'type': 'Single (100x200)', 'qty': '2'}]",18150000,4.9,"{'latitude': -6.214815, 'langtitude': 106.829398}",20220219
+Apartemen Ciputra World 2,2,"[{'type': 'Queen (160x200)', 'qty': '1'}]",9500000,4.9,"{'latitude': -6.220978, 'langtitude': 106.819044}",20220220
+Apartemen Taman Rasuna Kuningan,3,"[{'type': 'King (180x200)', 'qty': '1'}, {'type': 'Single (100x200)', 'qty': '1'}]",6948340,5.0,"{'latitude': -6.217864, 'langtitude': 106.836832}",20220219
+Apartemen Tamansari Sudirman,2,"[{'type': 'Queen (160x200)', 'qty': '1'}]",5013152,4.9,"{'latitude': -6.216334, 'langtitude': 106.821407}",20220219
+Apartemen Tamansari Sudirman,2,"[{'type': 'Queen (160x200)', 'qty': '1'}]",4927930,4.4,"{'latitude': -6.21633, 'langtitude': 106.821406}",20220225
+Apartemen Taman Rasuna Kuningan,4,"[{'type': 'Queen (160x200)', 'qty': '1'}, {'type': 'Queen (160x200)', 'qty': '1'}]",7482140,5.0,"{'latitude': -6.216407, 'langtitude': 106.837365}",20220219
