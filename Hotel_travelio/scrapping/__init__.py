@@ -7,7 +7,9 @@ import os
 import pandas as pd
 
 
-# add variable for url search and headers
+#run this funtion to get data from other page and date
+def run():
+    pass
 
 list = []
 # Get data from link
@@ -18,24 +20,23 @@ def get_data():
                       "Chrome/97.0.4692.99 Safari/537.36"
     }
     payload = {
-        'page': 1,
+        'page': '1',
         'stayDurationType': 'monthly',
-        'destinationId': '546c9db1b094a31e06e08a6b',
-        'destinationCategory': 'city',
-        'destination': 'Depok',
-        'numberOfRooms': '1',
+        'destinationId': '580740cad0746fa20a5a3f74',
+        'destinationCategory': 'area',
+        'destination': 'Kuningan',
+        'numberOfRooms' : '1',
         'numberOfNights': '365',
-        'formattedCheckinDate': '20220217',
+        'formattedCheckinDate': '20220219',
         'breakfast': '0',
         'provider': 'all',
         'sortBy': 'default',
         'sortOrder': '1',
-        'bottomPrice': '833333.6000000001',
-        'upperPrice': '15523333.6',
+        'bottomPrice': '2876608.8000000003',
+        'upperPrice': '64996608.8',
         'instant': '0',
-        'filterPropertyType' : None,
-        'unitType' : None,
-        'sellType' : None,
+        'unitType': None,
+        'sellType': None,
         'numberOfGuests': '1'
     }
 
@@ -49,6 +50,7 @@ def get_data():
         data_json = json.loads(soup.text)
         data = data_json['data']
 
+#Get data from link the parse data and cleaning data
         global latitude, langtitude, bed
         for nama in data:
             hotel = nama['building']['name']
@@ -68,11 +70,11 @@ def get_data():
                 else:
                     langtitude = dat
 
+#after data filled, add data to variable
             data_lokasi = {
                 'latitude' : latitude,
                 'langtitude' : langtitude
                     }
-
             data_dict = {
                         'nama' : hotel,
                         'max_tamu' : room_max,
@@ -82,20 +84,20 @@ def get_data():
                         'lokasi' : data_lokasi,
                         'tersedia' : book_date
                        }
-
+#then use list to make data global/ out from function
             list.append(data_dict)
 
 
 
-
+#run this funtion to make csv or excel output
 def panda(data):
     df = pd.DataFrame(list)
-    df.to_csv("hasil.csv", index=False)
-    df.to_excel("hasil.xlsx", index=False)
+    df.to_csv(f"result/hasil.csv", index=False)
+    df.to_excel(f"result/hasil.xlsx", index=False)
 
 
 
-
+#run this funtion to make JSON output
 def tampil_data(data):
     try:
         os.mkdir('result')
