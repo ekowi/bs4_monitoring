@@ -1,1 +1,1062 @@
-[{"nama": "Apartemen Casablanca", "max_tamu": 2, "kasur": [{"type": "King (180x200)", "qty": "1"}], "harga": 10000000, "rating": 0, "lokasi": {"latitude": -6.223056, "langtitude": 106.845278}, "tersedia": 20220224}, {"nama": "Apartemen Casablanca", "max_tamu": 4, "kasur": [{"type": "King (180x200)", "qty": "1"}, {"type": "Queen (160x200)", "qty": "1"}], "harga": 15000000, "rating": 0, "lokasi": {"latitude": -6.223056, "langtitude": 106.845278}, "tersedia": 20220219}, {"nama": "Apartemen Palm Court", "max_tamu": 2, "kasur": [{"type": "King (180x200)", "qty": "1"}], "harga": 11219000, "rating": 0, "lokasi": {"latitude": -6.238362, "langtitude": 106.825882}, "tersedia": 20220219}, {"nama": "Apartemen Denpasar Residence Kuningan", "max_tamu": 4, "kasur": [{"type": "Queen (160x200)", "qty": "2"}], "harga": 11572596, "rating": 0, "lokasi": {"latitude": -6.224686, "langtitude": 106.829601}, "tersedia": 20220219}, {"nama": "Apartemen Palm Court", "max_tamu": 2, "kasur": [{"type": "Queen (160x200)", "qty": "1"}], "harga": 11219000, "rating": 0, "lokasi": {"latitude": -6.238362, "langtitude": 106.825882}, "tersedia": 20220219}, {"nama": "Apartemen The Mayflower", "max_tamu": 3, "kasur": [{"type": "Queen (160x200)", "qty": "1"}, {"type": "Super Single (120x200)", "qty": "1"}], "harga": 22249999, "rating": 0, "lokasi": {"latitude": -6.208374, "langtitude": 106.822596}, "tersedia": 20220219}, {"nama": "Apartemen Palm Court", "max_tamu": 4, "kasur": [{"type": "King (180x200)", "qty": "1"}, {"type": "Single (100x200)", "qty": "2"}], "harga": 21050000, "rating": 5, "lokasi": {"latitude": -6.238362, "langtitude": 106.825882}, "tersedia": 20220219}, {"nama": "Apartemen Palm Court", "max_tamu": 2, "kasur": [{"type": "King (180x200)", "qty": "1"}], "harga": 11219000, "rating": 5, "lokasi": {"latitude": -6.238362, "langtitude": 106.825882}, "tersedia": 20220219}, {"nama": "Apartemen Ambassador Kuningan", "max_tamu": 4, "kasur": [{"type": "Queen (160x200)", "qty": "1"}, {"type": "Single (100x200)", "qty": "2"}], "harga": 16719998, "rating": 5, "lokasi": {"latitude": -6.223948366371162, "langtitude": 106.82698883841132}, "tersedia": 20220219}, {"nama": "Apartemen Ambassador 2", "max_tamu": 3, "kasur": [{"type": "Queen (160x200)", "qty": "1"}, {"type": "Super Single (120x200)", "qty": "1"}], "harga": 7000000, "rating": 4.9, "lokasi": {"latitude": -6.22316, "langtitude": 106.826083}, "tersedia": 20220219}, {"nama": "Apartemen Ambassador 2", "max_tamu": 3, "kasur": [{"type": "Queen (160x200)", "qty": "1"}, {"type": "Single (100x200)", "qty": "1"}], "harga": 9499999, "rating": 0, "lokasi": {"latitude": -6.22316, "langtitude": 106.826083}, "tersedia": 20220228}, {"nama": "Apartemen Ambassador 2", "max_tamu": 3, "kasur": [{"type": "Queen (160x200)", "qty": "1"}, {"type": "Single (100x200)", "qty": "1"}], "harga": 11000000, "rating": 5, "lokasi": {"latitude": -6.22316, "langtitude": 106.826083}, "tersedia": 20220219}, {"nama": "Apartemen Ambassador 2", "max_tamu": 4, "kasur": [{"type": "King (180x200)", "qty": "1"}, {"type": "Single (100x200)", "qty": "2"}], "harga": 15920520, "rating": 5, "lokasi": {"latitude": -6.22316, "langtitude": 106.826083}, "tersedia": 20220219}, {"nama": "Apartemen Ambassade Kuningan", "max_tamu": 2, "kasur": [{"type": "Queen (160x200)", "qty": "1"}], "harga": 6282545, "rating": 5, "lokasi": {"latitude": -6.222428, "langtitude": 106.831122}, "tersedia": 20220228}, {"nama": "Apartemen Ambassade Kuningan", "max_tamu": 2, "kasur": [{"type": "Queen (160x200)", "qty": "1"}], "harga": 8844480, "rating": 4.5, "lokasi": {"latitude": -6.222428, "langtitude": 106.831122}, "tersedia": 20220227}, {"nama": "Apartemen Ambassade Kuningan", "max_tamu": 4, "kasur": [{"type": "King (180x200)", "qty": "1"}, {"type": "Super Single (120x200)", "qty": "2"}], "harga": 15411348, "rating": 5, "lokasi": {"latitude": -6.222428, "langtitude": 106.831122}, "tersedia": 20220228}, {"nama": "Apartemen Bellagio Residence", "max_tamu": 3, "kasur": [{"type": "King (180x200)", "qty": "1"}, {"type": "Single (100x200)", "qty": "1"}], "harga": 10199999, "rating": 0, "lokasi": {"latitude": -6.227491, "langtitude": 106.824589}, "tersedia": 20220219}, {"nama": "Apartemen Bellagio Residence", "max_tamu": 2, "kasur": [{"type": "King (180x200)", "qty": "1"}], "harga": 10224999, "rating": 0, "lokasi": {"latitude": -6.227246, "langtitude": 106.82437}, "tersedia": 20220219}, {"nama": "Apartemen Bellagio Residence", "max_tamu": 6, "kasur": [{"type": "Queen (160x200)", "qty": "3"}], "harga": 16562499, "rating": 4.8, "lokasi": {"latitude": -6.227246, "langtitude": 106.82437}, "tersedia": 20220228}, {"nama": "Apartemen Bellagio Residence", "max_tamu": 2, "kasur": [{"type": "King (180x200)", "qty": "1"}], "harga": 10224999, "rating": 0, "lokasi": {"latitude": -6.227840606990748, "langtitude": 106.82447254657745}, "tersedia": 20220219}, {"nama": "Apartemen Bellagio Residence", "max_tamu": 2, "kasur": [{"type": "King (180x200)", "qty": "1"}], "harga": 11247498, "rating": 5, "lokasi": {"latitude": -6.227840606990748, "langtitude": 106.82447254657745}, "tersedia": 20220219}, {"nama": "Apartemen Bellagio Residence", "max_tamu": 2, "kasur": [{"type": "Queen (160x200)", "qty": "1"}, {"type": "Single (100x200)", "qty": "1"}], "harga": 12539998, "rating": 0, "lokasi": {"latitude": -6.227841, "langtitude": 106.824472}, "tersedia": 20220219}, {"nama": "Apartemen The Empyreal Epicentrum Kuningan", "max_tamu": 3, "kasur": [{"type": "Single (100x200)", "qty": "1"}, {"type": "King (180x200)", "qty": "1"}], "harga": 13609430, "rating": 5, "lokasi": {"latitude": -6.2185, "langtitude": 106.833959}, "tersedia": 20220228}, {"nama": "Apartemen The Empyreal Epicentrum Kuningan", "max_tamu": 3, "kasur": [{"type": "King (180x200)", "qty": "1"}, {"type": "Single (100x200)", "qty": "1"}], "harga": 14151449, "rating": 5, "lokasi": {"latitude": -6.2185, "langtitude": 106.833959}, "tersedia": 20220219}, {"nama": "Apartemen The Empyreal Epicentrum Kuningan", "max_tamu": 4, "kasur": [{"type": "King (180x200)", "qty": "1"}, {"type": "Queen (160x200)", "qty": "1"}], "harga": 14351449, "rating": 4.9, "lokasi": {"latitude": -6.2185, "langtitude": 106.833959}, "tersedia": 20220228}, {"nama": "Apartemen The Empyreal Epicentrum Kuningan", "max_tamu": 4, "kasur": [{"type": "King (180x200)", "qty": "1"}, {"type": "Super Single (120x200)", "qty": "2"}], "harga": 12500000, "rating": 5, "lokasi": {"latitude": -6.218249355801673, "langtitude": 106.83425404299165}, "tersedia": 20220228}, {"nama": "Apartemen Ciputra World 2", "max_tamu": 5, "kasur": [{"type": "Queen (160x200)", "qty": "1"}, {"type": "Single (100x200)", "qty": "1"}, {"type": "Double (140x200)", "qty": "1"}], "harga": 23627998, "rating": 5, "lokasi": {"latitude": -6.22258, "langtitude": 106.819962}, "tersedia": 20220219}, {"nama": "Apartemen Sudirman Tower Condominium", "max_tamu": 3, "kasur": [{"type": "Queen (160x200)", "qty": "1"}, {"type": "Single (100x200)", "qty": "2"}], "harga": 11076322, "rating": 4.8, "lokasi": {"latitude": -6.233915658353068, "langtitude": 106.83104783297154}, "tersedia": 20220219}, {"nama": "Apartemen Sudirman Tower Condominium", "max_tamu": 4, "kasur": [{"type": "Queen (160x200)", "qty": "1"}, {"type": "Queen (160x200)", "qty": "1"}, {"type": "Super Single (120x200)", "qty": "1"}], "harga": 14757778, "rating": 4.9, "lokasi": {"latitude": -6.233915658353068, "langtitude": 106.83104783297154}, "tersedia": 20220219}, {"nama": "Apartemen Tamansari Semanggi", "max_tamu": 2, "kasur": [{"type": "Queen (160x200)", "qty": "1"}], "harga": 6092342, "rating": 4.8, "lokasi": {"latitude": -6.226513, "langtitude": 106.81933}, "tersedia": 20220228}, {"nama": "Apartemen Tamansari Semanggi", "max_tamu": 4, "kasur": [{"type": "Queen (160x200)", "qty": "2"}], "harga": 10664030, "rating": 4.8, "lokasi": {"latitude": -6.226513, "langtitude": 106.81933}, "tersedia": 20220219}, {"nama": "Apartemen Tamansari Semanggi", "max_tamu": 2, "kasur": [{"type": "King (180x200)", "qty": "1"}], "harga": 5290500, "rating": 5, "lokasi": {"latitude": -6.22541633773109, "langtitude": 106.81921397916793}, "tersedia": 20220219}, {"nama": "Apartemen Tamansari Semanggi", "max_tamu": 2, "kasur": [{"type": "King (180x200)", "qty": "1"}], "harga": 7247402, "rating": 4.8, "lokasi": {"latitude": -6.225421670514887, "langtitude": 106.8192086147499}, "tersedia": 20220219}, {"nama": "Apartemen Ciputra World 2", "max_tamu": 2, "kasur": [{"type": "Queen (160x200)", "qty": "1"}], "harga": 8297829, "rating": 5, "lokasi": {"latitude": -6.222038, "langtitude": 106.819686}, "tersedia": 20220219}, {"nama": "Apartemen Tamansari Semanggi", "max_tamu": 4, "kasur": [{"type": "Queen (160x200)", "qty": "1"}, {"type": "Double (140x200)", "qty": "1"}, {"type": "Single (Underbed)", "qty": "1"}], "harga": 11058902, "rating": 4.9, "lokasi": {"latitude": -6.226637, "langtitude": 106.819315}, "tersedia": 20220219}, {"nama": "Apartemen Setiabudi Skygarden", "max_tamu": 2, "kasur": [{"type": "Queen (160x200)", "qty": "1"}], "harga": 14999999, "rating": 5, "lokasi": {"latitude": -6.215627, "langtitude": 106.82896}, "tersedia": 20220219}, {"nama": "Apartemen Tamansari Semanggi", "max_tamu": 4, "kasur": [{"type": "Queen (160x200)", "qty": "2"}], "harga": 9999999, "rating": 4.8, "lokasi": {"latitude": -6.227052, "langtitude": 106.819377}, "tersedia": 20220226}, {"nama": "Apartemen Setiabudi Skygarden", "max_tamu": 3, "kasur": [{"type": "Queen (160x200)", "qty": "1"}, {"type": "Super Single (120x200)", "qty": "1"}], "harga": 14849998, "rating": 5, "lokasi": {"latitude": -6.215625, "langtitude": 106.82896}, "tersedia": 20220219}, {"nama": "Apartemen Tamansari Semanggi", "max_tamu": 2, "kasur": [{"type": "Queen (160x200)", "qty": "1"}], "harga": 7000000, "rating": 4.9, "lokasi": {"latitude": -6.22639, "langtitude": 106.819211}, "tersedia": 20220225}, {"nama": "Apartemen Tamansari Semanggi", "max_tamu": 2, "kasur": [{"type": "Queen (160x200)", "qty": "1"}], "harga": 5908907, "rating": 4.8, "lokasi": {"latitude": -6.226474, "langtitude": 106.819113}, "tersedia": 20220219}, {"nama": "Apartemen Ciputra World 2", "max_tamu": 3, "kasur": [{"type": "Queen (160x200)", "qty": "1"}, {"type": "Super Single (120x200)", "qty": "1"}], "harga": 16000000, "rating": 4.7, "lokasi": {"latitude": -6.222643, "langtitude": 106.819273}, "tersedia": 20220219}, {"nama": "Apartemen Tamansari Semanggi", "max_tamu": 2, "kasur": [{"type": "King (180x200)", "qty": "1"}], "harga": 7254007, "rating": 5, "lokasi": {"latitude": -6.226070127947559, "langtitude": 106.81900352239609}, "tersedia": 20220227}, {"nama": "Apartemen Tamansari Semanggi", "max_tamu": 2, "kasur": [{"type": "Queen (160x200)", "qty": "1"}], "harga": 8449999, "rating": 4.7, "lokasi": {"latitude": -6.226306, "langtitude": 106.818997}, "tersedia": 20220226}, {"nama": "Apartemen Ciputra World 2", "max_tamu": 2, "kasur": [{"type": "King (180x200)", "qty": "1"}], "harga": 8155062, "rating": 0, "lokasi": {"latitude": -6.222026, "langtitude": 106.819399}, "tersedia": 20220219}, {"nama": "Apartemen Ciputra World 2", "max_tamu": 2, "kasur": [{"type": "Queen (160x200)", "qty": "1"}], "harga": 8124999, "rating": 5, "lokasi": {"latitude": -6.222025200874266, "langtitude": 106.81939780712128}, "tersedia": 20220219}, {"nama": "Apartemen Ciputra World 2", "max_tamu": 2, "kasur": [{"type": "Queen (160x200)", "qty": "1"}], "harga": 9217096, "rating": 5, "lokasi": {"latitude": -6.222025200874266, "langtitude": 106.81939780712128}, "tersedia": 20220219}, {"nama": "Apartemen Ciputra World 2", "max_tamu": 2, "kasur": [{"type": "Queen (160x200)", "qty": "1"}], "harga": 9217096, "rating": 5, "lokasi": {"latitude": -6.222025200874266, "langtitude": 106.81939780712128}, "tersedia": 20220225}, {"nama": "Apartemen Ciputra World 2", "max_tamu": 2, "kasur": [{"type": "Queen (160x200)", "qty": "1"}], "harga": 10749999, "rating": 5, "lokasi": {"latitude": -6.222025200874266, "langtitude": 106.81939780712128}, "tersedia": 20220227}, {"nama": "Apartemen Ciputra World 2", "max_tamu": 2, "kasur": [{"type": "Queen (160x200)", "qty": "1"}], "harga": 11829769, "rating": 4.6, "lokasi": {"latitude": -6.222025200874266, "langtitude": 106.81939780712128}, "tersedia": 20220219}, {"nama": "Apartemen Puri Casablanca", "max_tamu": 2, "kasur": [{"type": "King (180x200)", "qty": "1"}], "harga": 9859999, "rating": 5, "lokasi": {"latitude": -6.223001, "langtitude": 106.838258}, "tersedia": 20220219}, {"nama": "Apartemen Setiabudi", "max_tamu": 4, "kasur": [{"type": "King (180x200)", "qty": "1"}, {"type": "Single (100x200)", "qty": "2"}], "harga": 18150000, "rating": 4.9, "lokasi": {"latitude": -6.214815, "langtitude": 106.829398}, "tersedia": 20220219}, {"nama": "Apartemen Ciputra World 2", "max_tamu": 2, "kasur": [{"type": "Queen (160x200)", "qty": "1"}], "harga": 9500000, "rating": 4.9, "lokasi": {"latitude": -6.220978, "langtitude": 106.819044}, "tersedia": 20220220}, {"nama": "Apartemen Taman Rasuna Kuningan", "max_tamu": 3, "kasur": [{"type": "King (180x200)", "qty": "1"}, {"type": "Single (100x200)", "qty": "1"}], "harga": 6948340, "rating": 5, "lokasi": {"latitude": -6.217864, "langtitude": 106.836832}, "tersedia": 20220219}, {"nama": "Apartemen Tamansari Sudirman", "max_tamu": 2, "kasur": [{"type": "Queen (160x200)", "qty": "1"}], "harga": 5013152, "rating": 4.9, "lokasi": {"latitude": -6.216334, "langtitude": 106.821407}, "tersedia": 20220219}, {"nama": "Apartemen Tamansari Sudirman", "max_tamu": 2, "kasur": [{"type": "Queen (160x200)", "qty": "1"}], "harga": 4927930, "rating": 4.4, "lokasi": {"latitude": -6.21633, "langtitude": 106.821406}, "tersedia": 20220225}, {"nama": "Apartemen Taman Rasuna Kuningan", "max_tamu": 4, "kasur": [{"type": "Queen (160x200)", "qty": "1"}, {"type": "Queen (160x200)", "qty": "1"}], "harga": 7482140, "rating": 5, "lokasi": {"latitude": -6.216407, "langtitude": 106.837365}, "tersedia": 20220219}]
+[
+  {
+    "nama": "Apartemen Casablanca",
+    "max_tamu": 2,
+    "kasur": [
+      {
+        "type": "King (180x200)",
+        "qty": "1"
+      }
+    ],
+    "harga": 10000000,
+    "rating": 0,
+    "lokasi": {
+      "latitude": -6.223056,
+      "langtitude": 106.845278
+    },
+    "tersedia": 20220224
+  },
+  {
+    "nama": "Apartemen Casablanca",
+    "max_tamu": 4,
+    "kasur": [
+      {
+        "type": "King (180x200)",
+        "qty": "1"
+      },
+      {
+        "type": "Queen (160x200)",
+        "qty": "1"
+      }
+    ],
+    "harga": 15000000,
+    "rating": 0,
+    "lokasi": {
+      "latitude": -6.223056,
+      "langtitude": 106.845278
+    },
+    "tersedia": 20220219
+  },
+  {
+    "nama": "Apartemen Palm Court",
+    "max_tamu": 2,
+    "kasur": [
+      {
+        "type": "King (180x200)",
+        "qty": "1"
+      }
+    ],
+    "harga": 11219000,
+    "rating": 0,
+    "lokasi": {
+      "latitude": -6.238362,
+      "langtitude": 106.825882
+    },
+    "tersedia": 20220219
+  },
+  {
+    "nama": "Apartemen Denpasar Residence Kuningan",
+    "max_tamu": 4,
+    "kasur": [
+      {
+        "type": "Queen (160x200)",
+        "qty": "2"
+      }
+    ],
+    "harga": 11572596,
+    "rating": 0,
+    "lokasi": {
+      "latitude": -6.224686,
+      "langtitude": 106.829601
+    },
+    "tersedia": 20220219
+  },
+  {
+    "nama": "Apartemen Palm Court",
+    "max_tamu": 2,
+    "kasur": [
+      {
+        "type": "Queen (160x200)",
+        "qty": "1"
+      }
+    ],
+    "harga": 11219000,
+    "rating": 0,
+    "lokasi": {
+      "latitude": -6.238362,
+      "langtitude": 106.825882
+    },
+    "tersedia": 20220219
+  },
+  {
+    "nama": "Apartemen The Mayflower",
+    "max_tamu": 3,
+    "kasur": [
+      {
+        "type": "Queen (160x200)",
+        "qty": "1"
+      },
+      {
+        "type": "Super Single (120x200)",
+        "qty": "1"
+      }
+    ],
+    "harga": 22249999,
+    "rating": 0,
+    "lokasi": {
+      "latitude": -6.208374,
+      "langtitude": 106.822596
+    },
+    "tersedia": 20220219
+  },
+  {
+    "nama": "Apartemen Palm Court",
+    "max_tamu": 4,
+    "kasur": [
+      {
+        "type": "King (180x200)",
+        "qty": "1"
+      },
+      {
+        "type": "Single (100x200)",
+        "qty": "2"
+      }
+    ],
+    "harga": 21050000,
+    "rating": 5,
+    "lokasi": {
+      "latitude": -6.238362,
+      "langtitude": 106.825882
+    },
+    "tersedia": 20220219
+  },
+  {
+    "nama": "Apartemen Palm Court",
+    "max_tamu": 2,
+    "kasur": [
+      {
+        "type": "King (180x200)",
+        "qty": "1"
+      }
+    ],
+    "harga": 11219000,
+    "rating": 5,
+    "lokasi": {
+      "latitude": -6.238362,
+      "langtitude": 106.825882
+    },
+    "tersedia": 20220219
+  },
+  {
+    "nama": "Apartemen Ambassador Kuningan",
+    "max_tamu": 4,
+    "kasur": [
+      {
+        "type": "Queen (160x200)",
+        "qty": "1"
+      },
+      {
+        "type": "Single (100x200)",
+        "qty": "2"
+      }
+    ],
+    "harga": 16719998,
+    "rating": 5,
+    "lokasi": {
+      "latitude": -6.223948366371162,
+      "langtitude": 106.82698883841132
+    },
+    "tersedia": 20220219
+  },
+  {
+    "nama": "Apartemen Ambassador 2",
+    "max_tamu": 3,
+    "kasur": [
+      {
+        "type": "Queen (160x200)",
+        "qty": "1"
+      },
+      {
+        "type": "Super Single (120x200)",
+        "qty": "1"
+      }
+    ],
+    "harga": 7000000,
+    "rating": 4.9,
+    "lokasi": {
+      "latitude": -6.22316,
+      "langtitude": 106.826083
+    },
+    "tersedia": 20220219
+  },
+  {
+    "nama": "Apartemen Ambassador 2",
+    "max_tamu": 3,
+    "kasur": [
+      {
+        "type": "Queen (160x200)",
+        "qty": "1"
+      },
+      {
+        "type": "Single (100x200)",
+        "qty": "1"
+      }
+    ],
+    "harga": 9499999,
+    "rating": 0,
+    "lokasi": {
+      "latitude": -6.22316,
+      "langtitude": 106.826083
+    },
+    "tersedia": 20220228
+  },
+  {
+    "nama": "Apartemen Ambassador 2",
+    "max_tamu": 3,
+    "kasur": [
+      {
+        "type": "Queen (160x200)",
+        "qty": "1"
+      },
+      {
+        "type": "Single (100x200)",
+        "qty": "1"
+      }
+    ],
+    "harga": 11000000,
+    "rating": 5,
+    "lokasi": {
+      "latitude": -6.22316,
+      "langtitude": 106.826083
+    },
+    "tersedia": 20220219
+  },
+  {
+    "nama": "Apartemen Ambassador 2",
+    "max_tamu": 4,
+    "kasur": [
+      {
+        "type": "King (180x200)",
+        "qty": "1"
+      },
+      {
+        "type": "Single (100x200)",
+        "qty": "2"
+      }
+    ],
+    "harga": 15920520,
+    "rating": 5,
+    "lokasi": {
+      "latitude": -6.22316,
+      "langtitude": 106.826083
+    },
+    "tersedia": 20220219
+  },
+  {
+    "nama": "Apartemen Ambassade Kuningan",
+    "max_tamu": 2,
+    "kasur": [
+      {
+        "type": "Queen (160x200)",
+        "qty": "1"
+      }
+    ],
+    "harga": 6282545,
+    "rating": 5,
+    "lokasi": {
+      "latitude": -6.222428,
+      "langtitude": 106.831122
+    },
+    "tersedia": 20220228
+  },
+  {
+    "nama": "Apartemen Ambassade Kuningan",
+    "max_tamu": 2,
+    "kasur": [
+      {
+        "type": "Queen (160x200)",
+        "qty": "1"
+      }
+    ],
+    "harga": 8844480,
+    "rating": 4.5,
+    "lokasi": {
+      "latitude": -6.222428,
+      "langtitude": 106.831122
+    },
+    "tersedia": 20220227
+  },
+  {
+    "nama": "Apartemen Ambassade Kuningan",
+    "max_tamu": 4,
+    "kasur": [
+      {
+        "type": "King (180x200)",
+        "qty": "1"
+      },
+      {
+        "type": "Super Single (120x200)",
+        "qty": "2"
+      }
+    ],
+    "harga": 15411348,
+    "rating": 5,
+    "lokasi": {
+      "latitude": -6.222428,
+      "langtitude": 106.831122
+    },
+    "tersedia": 20220228
+  },
+  {
+    "nama": "Apartemen Bellagio Residence",
+    "max_tamu": 3,
+    "kasur": [
+      {
+        "type": "King (180x200)",
+        "qty": "1"
+      },
+      {
+        "type": "Single (100x200)",
+        "qty": "1"
+      }
+    ],
+    "harga": 10199999,
+    "rating": 0,
+    "lokasi": {
+      "latitude": -6.227491,
+      "langtitude": 106.824589
+    },
+    "tersedia": 20220219
+  },
+  {
+    "nama": "Apartemen Bellagio Residence",
+    "max_tamu": 2,
+    "kasur": [
+      {
+        "type": "King (180x200)",
+        "qty": "1"
+      }
+    ],
+    "harga": 10224999,
+    "rating": 0,
+    "lokasi": {
+      "latitude": -6.227246,
+      "langtitude": 106.82437
+    },
+    "tersedia": 20220219
+  },
+  {
+    "nama": "Apartemen Bellagio Residence",
+    "max_tamu": 6,
+    "kasur": [
+      {
+        "type": "Queen (160x200)",
+        "qty": "3"
+      }
+    ],
+    "harga": 16562499,
+    "rating": 4.8,
+    "lokasi": {
+      "latitude": -6.227246,
+      "langtitude": 106.82437
+    },
+    "tersedia": 20220228
+  },
+  {
+    "nama": "Apartemen Bellagio Residence",
+    "max_tamu": 2,
+    "kasur": [
+      {
+        "type": "King (180x200)",
+        "qty": "1"
+      }
+    ],
+    "harga": 10224999,
+    "rating": 0,
+    "lokasi": {
+      "latitude": -6.227840606990748,
+      "langtitude": 106.82447254657745
+    },
+    "tersedia": 20220219
+  },
+  {
+    "nama": "Apartemen Bellagio Residence",
+    "max_tamu": 2,
+    "kasur": [
+      {
+        "type": "King (180x200)",
+        "qty": "1"
+      }
+    ],
+    "harga": 11247498,
+    "rating": 5,
+    "lokasi": {
+      "latitude": -6.227840606990748,
+      "langtitude": 106.82447254657745
+    },
+    "tersedia": 20220219
+  },
+  {
+    "nama": "Apartemen Bellagio Residence",
+    "max_tamu": 2,
+    "kasur": [
+      {
+        "type": "Queen (160x200)",
+        "qty": "1"
+      },
+      {
+        "type": "Single (100x200)",
+        "qty": "1"
+      }
+    ],
+    "harga": 12539998,
+    "rating": 0,
+    "lokasi": {
+      "latitude": -6.227841,
+      "langtitude": 106.824472
+    },
+    "tersedia": 20220219
+  },
+  {
+    "nama": "Apartemen The Empyreal Epicentrum Kuningan",
+    "max_tamu": 3,
+    "kasur": [
+      {
+        "type": "Single (100x200)",
+        "qty": "1"
+      },
+      {
+        "type": "King (180x200)",
+        "qty": "1"
+      }
+    ],
+    "harga": 13609430,
+    "rating": 5,
+    "lokasi": {
+      "latitude": -6.2185,
+      "langtitude": 106.833959
+    },
+    "tersedia": 20220228
+  },
+  {
+    "nama": "Apartemen The Empyreal Epicentrum Kuningan",
+    "max_tamu": 3,
+    "kasur": [
+      {
+        "type": "King (180x200)",
+        "qty": "1"
+      },
+      {
+        "type": "Single (100x200)",
+        "qty": "1"
+      }
+    ],
+    "harga": 14151449,
+    "rating": 5,
+    "lokasi": {
+      "latitude": -6.2185,
+      "langtitude": 106.833959
+    },
+    "tersedia": 20220219
+  },
+  {
+    "nama": "Apartemen The Empyreal Epicentrum Kuningan",
+    "max_tamu": 4,
+    "kasur": [
+      {
+        "type": "King (180x200)",
+        "qty": "1"
+      },
+      {
+        "type": "Queen (160x200)",
+        "qty": "1"
+      }
+    ],
+    "harga": 14351449,
+    "rating": 4.9,
+    "lokasi": {
+      "latitude": -6.2185,
+      "langtitude": 106.833959
+    },
+    "tersedia": 20220228
+  },
+  {
+    "nama": "Apartemen The Empyreal Epicentrum Kuningan",
+    "max_tamu": 4,
+    "kasur": [
+      {
+        "type": "King (180x200)",
+        "qty": "1"
+      },
+      {
+        "type": "Super Single (120x200)",
+        "qty": "2"
+      }
+    ],
+    "harga": 12500000,
+    "rating": 5,
+    "lokasi": {
+      "latitude": -6.218249355801673,
+      "langtitude": 106.83425404299165
+    },
+    "tersedia": 20220228
+  },
+  {
+    "nama": "Apartemen Ciputra World 2",
+    "max_tamu": 5,
+    "kasur": [
+      {
+        "type": "Queen (160x200)",
+        "qty": "1"
+      },
+      {
+        "type": "Single (100x200)",
+        "qty": "1"
+      },
+      {
+        "type": "Double (140x200)",
+        "qty": "1"
+      }
+    ],
+    "harga": 23627998,
+    "rating": 5,
+    "lokasi": {
+      "latitude": -6.22258,
+      "langtitude": 106.819962
+    },
+    "tersedia": 20220219
+  },
+  {
+    "nama": "Apartemen Sudirman Tower Condominium",
+    "max_tamu": 3,
+    "kasur": [
+      {
+        "type": "Queen (160x200)",
+        "qty": "1"
+      },
+      {
+        "type": "Single (100x200)",
+        "qty": "2"
+      }
+    ],
+    "harga": 11076322,
+    "rating": 4.8,
+    "lokasi": {
+      "latitude": -6.233915658353068,
+      "langtitude": 106.83104783297154
+    },
+    "tersedia": 20220219
+  },
+  {
+    "nama": "Apartemen Sudirman Tower Condominium",
+    "max_tamu": 4,
+    "kasur": [
+      {
+        "type": "Queen (160x200)",
+        "qty": "1"
+      },
+      {
+        "type": "Queen (160x200)",
+        "qty": "1"
+      },
+      {
+        "type": "Super Single (120x200)",
+        "qty": "1"
+      }
+    ],
+    "harga": 14757778,
+    "rating": 4.9,
+    "lokasi": {
+      "latitude": -6.233915658353068,
+      "langtitude": 106.83104783297154
+    },
+    "tersedia": 20220219
+  },
+  {
+    "nama": "Apartemen Tamansari Semanggi",
+    "max_tamu": 2,
+    "kasur": [
+      {
+        "type": "Queen (160x200)",
+        "qty": "1"
+      }
+    ],
+    "harga": 6092342,
+    "rating": 4.8,
+    "lokasi": {
+      "latitude": -6.226513,
+      "langtitude": 106.81933
+    },
+    "tersedia": 20220228
+  },
+  {
+    "nama": "Apartemen Tamansari Semanggi",
+    "max_tamu": 4,
+    "kasur": [
+      {
+        "type": "Queen (160x200)",
+        "qty": "2"
+      }
+    ],
+    "harga": 10664030,
+    "rating": 4.8,
+    "lokasi": {
+      "latitude": -6.226513,
+      "langtitude": 106.81933
+    },
+    "tersedia": 20220219
+  },
+  {
+    "nama": "Apartemen Tamansari Semanggi",
+    "max_tamu": 2,
+    "kasur": [
+      {
+        "type": "King (180x200)",
+        "qty": "1"
+      }
+    ],
+    "harga": 5290500,
+    "rating": 5,
+    "lokasi": {
+      "latitude": -6.22541633773109,
+      "langtitude": 106.81921397916793
+    },
+    "tersedia": 20220219
+  },
+  {
+    "nama": "Apartemen Tamansari Semanggi",
+    "max_tamu": 2,
+    "kasur": [
+      {
+        "type": "King (180x200)",
+        "qty": "1"
+      }
+    ],
+    "harga": 7247402,
+    "rating": 4.8,
+    "lokasi": {
+      "latitude": -6.225421670514887,
+      "langtitude": 106.8192086147499
+    },
+    "tersedia": 20220219
+  },
+  {
+    "nama": "Apartemen Ciputra World 2",
+    "max_tamu": 2,
+    "kasur": [
+      {
+        "type": "Queen (160x200)",
+        "qty": "1"
+      }
+    ],
+    "harga": 8297829,
+    "rating": 5,
+    "lokasi": {
+      "latitude": -6.222038,
+      "langtitude": 106.819686
+    },
+    "tersedia": 20220219
+  },
+  {
+    "nama": "Apartemen Tamansari Semanggi",
+    "max_tamu": 4,
+    "kasur": [
+      {
+        "type": "Queen (160x200)",
+        "qty": "1"
+      },
+      {
+        "type": "Double (140x200)",
+        "qty": "1"
+      },
+      {
+        "type": "Single (Underbed)",
+        "qty": "1"
+      }
+    ],
+    "harga": 11058902,
+    "rating": 4.9,
+    "lokasi": {
+      "latitude": -6.226637,
+      "langtitude": 106.819315
+    },
+    "tersedia": 20220219
+  },
+  {
+    "nama": "Apartemen Setiabudi Skygarden",
+    "max_tamu": 2,
+    "kasur": [
+      {
+        "type": "Queen (160x200)",
+        "qty": "1"
+      }
+    ],
+    "harga": 14999999,
+    "rating": 5,
+    "lokasi": {
+      "latitude": -6.215627,
+      "langtitude": 106.82896
+    },
+    "tersedia": 20220219
+  },
+  {
+    "nama": "Apartemen Tamansari Semanggi",
+    "max_tamu": 4,
+    "kasur": [
+      {
+        "type": "Queen (160x200)",
+        "qty": "2"
+      }
+    ],
+    "harga": 9999999,
+    "rating": 4.8,
+    "lokasi": {
+      "latitude": -6.227052,
+      "langtitude": 106.819377
+    },
+    "tersedia": 20220226
+  },
+  {
+    "nama": "Apartemen Setiabudi Skygarden",
+    "max_tamu": 3,
+    "kasur": [
+      {
+        "type": "Queen (160x200)",
+        "qty": "1"
+      },
+      {
+        "type": "Super Single (120x200)",
+        "qty": "1"
+      }
+    ],
+    "harga": 14849998,
+    "rating": 5,
+    "lokasi": {
+      "latitude": -6.215625,
+      "langtitude": 106.82896
+    },
+    "tersedia": 20220219
+  },
+  {
+    "nama": "Apartemen Tamansari Semanggi",
+    "max_tamu": 2,
+    "kasur": [
+      {
+        "type": "Queen (160x200)",
+        "qty": "1"
+      }
+    ],
+    "harga": 7000000,
+    "rating": 4.9,
+    "lokasi": {
+      "latitude": -6.22639,
+      "langtitude": 106.819211
+    },
+    "tersedia": 20220225
+  },
+  {
+    "nama": "Apartemen Tamansari Semanggi",
+    "max_tamu": 2,
+    "kasur": [
+      {
+        "type": "Queen (160x200)",
+        "qty": "1"
+      }
+    ],
+    "harga": 5908907,
+    "rating": 4.8,
+    "lokasi": {
+      "latitude": -6.226474,
+      "langtitude": 106.819113
+    },
+    "tersedia": 20220219
+  },
+  {
+    "nama": "Apartemen Ciputra World 2",
+    "max_tamu": 3,
+    "kasur": [
+      {
+        "type": "Queen (160x200)",
+        "qty": "1"
+      },
+      {
+        "type": "Super Single (120x200)",
+        "qty": "1"
+      }
+    ],
+    "harga": 16000000,
+    "rating": 4.7,
+    "lokasi": {
+      "latitude": -6.222643,
+      "langtitude": 106.819273
+    },
+    "tersedia": 20220219
+  },
+  {
+    "nama": "Apartemen Tamansari Semanggi",
+    "max_tamu": 2,
+    "kasur": [
+      {
+        "type": "King (180x200)",
+        "qty": "1"
+      }
+    ],
+    "harga": 7254007,
+    "rating": 5,
+    "lokasi": {
+      "latitude": -6.226070127947559,
+      "langtitude": 106.81900352239609
+    },
+    "tersedia": 20220227
+  },
+  {
+    "nama": "Apartemen Tamansari Semanggi",
+    "max_tamu": 2,
+    "kasur": [
+      {
+        "type": "Queen (160x200)",
+        "qty": "1"
+      }
+    ],
+    "harga": 8449999,
+    "rating": 4.7,
+    "lokasi": {
+      "latitude": -6.226306,
+      "langtitude": 106.818997
+    },
+    "tersedia": 20220226
+  },
+  {
+    "nama": "Apartemen Ciputra World 2",
+    "max_tamu": 2,
+    "kasur": [
+      {
+        "type": "King (180x200)",
+        "qty": "1"
+      }
+    ],
+    "harga": 8155062,
+    "rating": 0,
+    "lokasi": {
+      "latitude": -6.222026,
+      "langtitude": 106.819399
+    },
+    "tersedia": 20220219
+  },
+  {
+    "nama": "Apartemen Ciputra World 2",
+    "max_tamu": 2,
+    "kasur": [
+      {
+        "type": "Queen (160x200)",
+        "qty": "1"
+      }
+    ],
+    "harga": 8124999,
+    "rating": 5,
+    "lokasi": {
+      "latitude": -6.222025200874266,
+      "langtitude": 106.81939780712128
+    },
+    "tersedia": 20220219
+  },
+  {
+    "nama": "Apartemen Ciputra World 2",
+    "max_tamu": 2,
+    "kasur": [
+      {
+        "type": "Queen (160x200)",
+        "qty": "1"
+      }
+    ],
+    "harga": 9217096,
+    "rating": 5,
+    "lokasi": {
+      "latitude": -6.222025200874266,
+      "langtitude": 106.81939780712128
+    },
+    "tersedia": 20220219
+  },
+  {
+    "nama": "Apartemen Ciputra World 2",
+    "max_tamu": 2,
+    "kasur": [
+      {
+        "type": "Queen (160x200)",
+        "qty": "1"
+      }
+    ],
+    "harga": 9217096,
+    "rating": 5,
+    "lokasi": {
+      "latitude": -6.222025200874266,
+      "langtitude": 106.81939780712128
+    },
+    "tersedia": 20220225
+  },
+  {
+    "nama": "Apartemen Ciputra World 2",
+    "max_tamu": 2,
+    "kasur": [
+      {
+        "type": "Queen (160x200)",
+        "qty": "1"
+      }
+    ],
+    "harga": 10749999,
+    "rating": 5,
+    "lokasi": {
+      "latitude": -6.222025200874266,
+      "langtitude": 106.81939780712128
+    },
+    "tersedia": 20220227
+  },
+  {
+    "nama": "Apartemen Ciputra World 2",
+    "max_tamu": 2,
+    "kasur": [
+      {
+        "type": "Queen (160x200)",
+        "qty": "1"
+      }
+    ],
+    "harga": 11829769,
+    "rating": 4.6,
+    "lokasi": {
+      "latitude": -6.222025200874266,
+      "langtitude": 106.81939780712128
+    },
+    "tersedia": 20220219
+  },
+  {
+    "nama": "Apartemen Puri Casablanca",
+    "max_tamu": 2,
+    "kasur": [
+      {
+        "type": "King (180x200)",
+        "qty": "1"
+      }
+    ],
+    "harga": 9859999,
+    "rating": 5,
+    "lokasi": {
+      "latitude": -6.223001,
+      "langtitude": 106.838258
+    },
+    "tersedia": 20220219
+  },
+  {
+    "nama": "Apartemen Setiabudi",
+    "max_tamu": 4,
+    "kasur": [
+      {
+        "type": "King (180x200)",
+        "qty": "1"
+      },
+      {
+        "type": "Single (100x200)",
+        "qty": "2"
+      }
+    ],
+    "harga": 18150000,
+    "rating": 4.9,
+    "lokasi": {
+      "latitude": -6.214815,
+      "langtitude": 106.829398
+    },
+    "tersedia": 20220219
+  },
+  {
+    "nama": "Apartemen Ciputra World 2",
+    "max_tamu": 2,
+    "kasur": [
+      {
+        "type": "Queen (160x200)",
+        "qty": "1"
+      }
+    ],
+    "harga": 9500000,
+    "rating": 4.9,
+    "lokasi": {
+      "latitude": -6.220978,
+      "langtitude": 106.819044
+    },
+    "tersedia": 20220220
+  },
+  {
+    "nama": "Apartemen Taman Rasuna Kuningan",
+    "max_tamu": 3,
+    "kasur": [
+      {
+        "type": "King (180x200)",
+        "qty": "1"
+      },
+      {
+        "type": "Single (100x200)",
+        "qty": "1"
+      }
+    ],
+    "harga": 6948340,
+    "rating": 5,
+    "lokasi": {
+      "latitude": -6.217864,
+      "langtitude": 106.836832
+    },
+    "tersedia": 20220219
+  },
+  {
+    "nama": "Apartemen Tamansari Sudirman",
+    "max_tamu": 2,
+    "kasur": [
+      {
+        "type": "Queen (160x200)",
+        "qty": "1"
+      }
+    ],
+    "harga": 5013152,
+    "rating": 4.9,
+    "lokasi": {
+      "latitude": -6.216334,
+      "langtitude": 106.821407
+    },
+    "tersedia": 20220219
+  },
+  {
+    "nama": "Apartemen Tamansari Sudirman",
+    "max_tamu": 2,
+    "kasur": [
+      {
+        "type": "Queen (160x200)",
+        "qty": "1"
+      }
+    ],
+    "harga": 4927930,
+    "rating": 4.4,
+    "lokasi": {
+      "latitude": -6.21633,
+      "langtitude": 106.821406
+    },
+    "tersedia": 20220225
+  },
+  {
+    "nama": "Apartemen Taman Rasuna Kuningan",
+    "max_tamu": 4,
+    "kasur": [
+      {
+        "type": "Queen (160x200)",
+        "qty": "1"
+      },
+      {
+        "type": "Queen (160x200)",
+        "qty": "1"
+      }
+    ],
+    "harga": 7482140,
+    "rating": 5,
+    "lokasi": {
+      "latitude": -6.216407,
+      "langtitude": 106.837365
+    },
+    "tersedia": 20220219
+  }
+]
